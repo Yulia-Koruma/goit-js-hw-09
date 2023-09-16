@@ -5,9 +5,8 @@
 
 const bodyColor = document.querySelector('body');
 const btnStart = document.querySelector('[data-start]');
-console.log(btnStart);
 const btnStop = document.querySelector('[data-stop]');
-console.log(btnStop);
+
 let timerId = null;
 
 function getRandomHexColor() {
